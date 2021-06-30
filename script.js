@@ -17,7 +17,7 @@ function add_item(){
     htmlData = "<section class='cards'>";
     for(var i=0; i<menu_list_array.length; i++){
         htmlData = htmlData + "<div class='card'>" +
-        "<img src='images/pizzaImg.png'>" + 
+        "<img src='pizzaImg.png'>" + 
         menu_list_array[i] +
          "</div>";
     }
